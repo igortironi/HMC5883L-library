@@ -1,0 +1,8 @@
+HMC5883L		KEYWORD1
+begin			KEYWORD2
+read			KEYWORD2
+autogain		KEYWORD2 
+set_autogain		KEYWORD2   
+set_gain		KEYWORD2           
+set_sample_average	KEYWORD2             
+set_data_output		KEYWORD2

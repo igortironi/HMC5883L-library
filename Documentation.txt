@@ -1,0 +1,7 @@
+byte begin();                                                   //initializes the sensor with a default setup.
+byte read(int *x_value, int *y_value, int *z_value);            //read the sensor values and stores it in x,y, z value variable.
+void autogain(byte condition);                                  //turns on/off autogain.
+void set_autogain(int maximum, int minimum);                    //sets criteria to autogain adjust. Value between 0 and 2047.
+byte set_gain(byte value);                                      //sets the sensor gain. Value between 0 and 7.
+byte set_sample_average(byte number);                           //sets the number of samples to average. Values can be 1, 2, 4, 8.
+byte set_data_output(float number);                             //sets data output frequency. Values can be 0.75, 1.5, 3, 7.5, 15, 30, 75.
